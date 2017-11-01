@@ -1,4 +1,6 @@
-%semnal triunghiular
+%Se va genera un semnal cu rezolutie temporara de 2ms, 20ms
+200ms pentru un semnal continuu de tipul: 
+%semnal triunghiular periodic
 %T = 5s, A+ = 1, A- = -2, ,m=1 V/s
 t=0:0.002:20;  %0.002 = 2ms = rezolutia temporala
    
@@ -36,3 +38,4 @@ xlabel('Timp [s]')
 ylabel('A [V]')
 grid
 plot(t,s,'-r.')
+% Am modificat perioada la 6 secunde ca sa ne dea panta m de 1V/s.
